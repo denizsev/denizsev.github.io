@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deniz Sevinc · Computer Science, University of Bremen</title>
+    <meta name="description" content="Deniz Sevinc studies Computer Science at the University of Bremen and builds small web apps that work offline. Projects, courses and contact.">
+    <meta property="og:title" content="Deniz Sevinc">
+    <meta property="og:description" content="Computer Science student in Bremen. Web apps that work offline: a scientific calculator, a touch-first to-do app and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denizsev.github.io/">
+    <meta property="og:image" content="https://denizsev.github.io/img/ovid.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231d3a6e'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='18' font-weight='700' fill='%23fff' text-anchor='middle'%3Eds%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="intro wrap">
+        <p class="eyebrow">Bremen, Germany</p>
+        <h1>Deniz Sevinc</h1>
+        <p class="lead">
+            Computer Science (B.Sc.) at the University of Bremen, first semester.
+            I write Java for university and JavaScript for my own projects,
+            mostly small web apps that keep working without a server.
+        </p>
+        <p class="status"><span class="dot" aria-hidden="true"></span>Open to Werkstudent, part-time and full-time roles</p>
+        <nav class="links" aria-label="Profiles">
+            <a href="https://github.com/denizsev">GitHub</a>
+            <a href="https://www.linkedin.com/in/deniz-sevinc-6b1270387">LinkedIn</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="wrap" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+
+            <article class="project project--wide">
+                <a class="shot" href="https://denizsev.github.io/ovid-calculator/">
+                    <img src="img/ovid.jpg" alt="Ovid Calculator: a dark, starry calculator with scientific keys" width="941" height="397" loading="lazy">
+                </a>
+                <div class="body">
+                    <h3>Ovid Calculator</h3>
+                    <p>A scientific calculator that keeps track of units, exact fractions and measurement error. It shows calculation steps, plots functions on a second page and works offline in six languages.</p>
+                    <p class="tags">JavaScript · own parser (shunting-yard → AST) · service worker · i18n</p>
+                    <p class="actions"><a href="https://denizsev.github.io/ovid-calculator/">Open app</a><a href="https://github.com/denizsev/ovid-calculator">Code</a></p>
+                </div>
+            </article>
+
+            <div class="grid">
+                <article class="project">
+                    <a class="shot" href="https://denizsev.github.io/toDoAppMastering/">
+                        <img src="img/tasks.jpg" alt="Tasks app: a phone-sized list of today's tasks" width="800" height="600" loading="lazy">
+                    </a>
+                    <div class="body">
+                        <h3>Tasks</h3>
+                        <p>A to-do app for the thumb: no syntax, swipe to complete or snooze, data stays in the browser.</p>
+                        <p class="tags">HTML · CSS · JavaScript · one file</p>
+                        <p class="actions"><a href="https://denizsev.github.io/toDoAppMastering/">Open app</a><a href="https://github.com/denizsev/toDoAppMastering">Code</a></p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <a class="shot" href="https://denizsev.github.io/Etch-a-Sketch/">
+                        <img src="img/etch.jpg" alt="Etch-a-Sketch: a red frame with a colourful drawing on a grid" width="800" height="600" loading="lazy">
+                    </a>
+                    <div class="body">
+                        <h3>Etch-a-Sketch</h3>
+                        <p>Draw on a grid with mouse or finger. 1–100 squares per side, three colour modes.</p>
+                        <p class="tags">DOM · pointer events · CSS grid</p>
+                        <p class="actions"><a href="https://denizsev.github.io/Etch-a-Sketch/">Open app</a><a href="https://github.com/denizsev/Etch-a-Sketch">Code</a></p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <a class="shot" href="https://denizsev.github.io/rock_paper_scissors/">
+                        <img src="img/rps.jpg" alt="Rock Paper Scissors game with score board" width="800" height="600" loading="lazy">
+                    </a>
+                    <div class="body">
+                        <h3>Rock Paper Scissors</h3>
+                        <p>Play against the computer, first to 3 points wins.</p>
+                        <p class="tags">JavaScript · game state</p>
+                        <p class="actions"><a href="https://denizsev.github.io/rock_paper_scissors/">Play</a><a href="https://github.com/denizsev/rock_paper_scissors">Code</a></p>
+                    </div>
+                </article>
+
+                <article class="project project--text">
+                    <div class="body">
+                        <h3>Ikinci Beyin</h3>
+                        <p>A study app for students: cards, tasks and shared team spaces in one installable web app. In private beta, so the code is not public yet.</p>
+                        <p class="tags">PWA · Supabase · Postgres row-level security</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="wrap two" aria-label="Studies and languages">
+            <div>
+                <h2>This semester</h2>
+                <ul class="plain">
+                    <li>Programmiergrundlagen <span>Java</span></li>
+                    <li>Mathematik 1 <span>proofs, algebra, combinatorics</span></li>
+                    <li>KI: Transformer der Informatik <span>neural networks, transformers</span></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Languages</h2>
+                <ul class="plain">
+                    <li>Turkish <span>native</span></li>
+                    <li>German <span>C1</span></li>
+                    <li>English <span>B2</span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="wrap foot">
+        <p>Plain HTML and CSS, no framework ·<a href="https://github.com/denizsev/denizsev.github.io">source</a></p>
+    </footer>
+</body>
+</html>
